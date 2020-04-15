@@ -1,10 +1,10 @@
 #PHST 2020 Writeup
 
-![alt text](https://img.url.here "phst_logo.png")
+![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/phst_logo.png "phst_logo.png")
 
 ##Skjærtordag
 
-![alt text](https://img.url.here "skjrtorsdag.png")
+![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/1%20-%20Skj%C3%A6rtorsdag/skjrtorsdag.png "skjrtorsdag.png")
 
 I denne oppgaven blir vi gitt et bilde `skjrtorsdag.png`, som det blir sakt inneholder noe muffens. Mulig det er lurt å starte med å sjekke EXIF-metadataen til filen, til dette finnes det et par verktøy man kan bruke, men jeg går med [ExifTool](https://exiftool.org/), som gjør en grei jobb:
 
@@ -45,11 +45,11 @@ Det er også relativt enkelt å gjøre dette med penn og papir, man bare forskyv
 
 ##Langfredag
 
-![alt text](https://img.url.here "paskeegg_langfredag.png")
+![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/2%20-%20Langfredag/paskeegg_langfredag.png "paskeegg_langfredag.png")
 
 I denne oppgaven blir vi gitt et bilde `paskeegg_langfredag.png`, og det blir sagt at det finnes noe av interesse i blidet. Og det ser det ut som det gjør; blidet viser et bord med diverse verktøy, skruer, en kartong med påskeegg, og et ark med visse farger og teksten "Resistor Color Code". Om vi tar to og to sammen er det helt klart en korrelasjon mellom fargene på eggene og "Resistor Color Code". Det virker som det er brukt farger til å representere tall ved bruk av resistorfargekoder. Her er en tabell som viser hvilke farger og tall som hører sammen.
 
-![alt text](https://img.url.here "resistor_color_codes.png")
+![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/2%20-%20Langfredag/resistor_color_codes.png "resistor_color_codes.png")
 
 Noterer vi ned  fargene på eggene får vi:
 
