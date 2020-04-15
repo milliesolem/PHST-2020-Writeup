@@ -1,8 +1,8 @@
-#PHST 2020 Writeup
+# PHST 2020 Writeup
 
 ![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/phst_logo.png "phst_logo.png")
 
-##Skjærtordag
+## Skjærtordag
 
 ![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/1%20-%20Skj%C3%A6rtorsdag/skjrtorsdag.png "skjrtorsdag.png")
 
@@ -43,7 +43,7 @@ Her får vi mye data, men noe som ser interessant ut er `Image Description`; Her
 
 Det er også relativt enkelt å gjøre dette med penn og papir, man bare forskyver alle bokstavene i teksten med 13 bokstaver i alfabetet, slik at "a" blir "n", "b" blir "o", "c" blir "p", osv. Kommer man til slutten av alfabetet går man bare til starten av alfabetet og fortsetter å telle. Samme metode fungerer også for dekryptering.
 
-##Langfredag
+## Langfredag
 
 ![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/2%20-%20Langfredag/paskeegg_langfredag.png "paskeegg_langfredag.png")
 
@@ -69,7 +69,7 @@ Gjør vi så disse til deres ekvivalente tall får vi:
 Dette ligner på ASCII-koder. Og riktig nok, omgjør vi tallene til deres ekvivalente ASCII-tegn får vi `p44sk3h4r3n!`, flagget er altså `PHST{p44sk3h4r3n!}`.
 
 
-##Påskeaften
+## Påskeaften
 
 Her blir vi gitt nettaddressen `1F423.com`. Domenet er registrert, men leder ikke til noen server. Istedet får vi se om det er noe data i resource records til domenet. Personlig valtge jeg å gjøre dette igjennom [UltraTools](https://www.ultratools.com/tools/dnsLookup), men det er godt mulig i gjøre dette med `nslookup`-kommandoen og diverse andre verktøy, men som jeg lærte på den harde måten etter mye prøving og feiling er det lett å overse visse ting når man gjør det manuelt.
 
@@ -91,7 +91,7 @@ Resultatet blir:
 Her får vi interessant informasjon, spesiellt de tallene, som ser ut til å være koordinater. Skriver vi `60°47'34.900" N 11°6'3.600" E` inn i en søkemotor ser vi at koordinatene peker direkte på Vikingskipet på Hamar. Flagget blir altså `PHST{Vikingskipet}`.
 
 
-##Første påskedag
+## Første påskedag
 
 I denne oppgaven blir vi gitt en PCAP-fil `mistenklig.pcap`. En PCAP-fil er et opptak av nettverkstrafikk på et netverk, og kan leses ved bruk av et verktøy som [Wireshark](https://www.wireshark.org/). Vi blir fortalt at en aktør har fått fotfeste på en datamaskin på nettverket og bruker denne datamaskinen til å hente ut informasjon. Vår oppgave er altså da å finne ut hvilke informasjon aktøren har fått tak i. Hovedsakelig er vi ute etter titellen på et dokument.
 
@@ -145,7 +145,7 @@ Server: Apache/2.4.29 (Ubuntu)
 Om vi dekoder delen med url-en med PDF-filen får vi `https://www.yr.no/place/Norway/Innlandet/Hamar/Vikingskipet/forecast.pdf`, om vi så åpner denne PDF-en ser vi at tittelen er `Weather forecast for Vikingskipet`, og siden flagget er breskrevet som `PHST{Tittel i dokument}` så blir flagget da `PHST{Weather forecast for Vikingskipet}`
 
 
-##Andre påskedag
+## Andre påskedag
 
 ![alt text](https://img.url.here "paskekylligbetjenter.png")
 
@@ -257,7 +257,7 @@ Scriptet tar koden til den orginale, men setter kommando-kjøringen i en `while 
 
 For de som ikke vet, så var Pen Gwyn en agent for Sydpolar Sikkerhetstjenste SPST i PSTs julekalender i fjord. 
 
-##Rebus
+## Rebus
 ```
 Your quest is now over
 We hope it was fun
@@ -278,6 +278,6 @@ String alfa = "0c405bdf5899c3db8ba0d1909f9"
 
 Setter vi disse sammen og slenger på en `.html` får vi `0c405bdf5899c3db8ba0d1909f919de0b5a1eeef635c2b4fec6e7c7664150457e1f2ccc339903074978df7930e256789cb87ea67358a3f6ce4eb662e4797a39b.html`. Går vi inn på denne siden blir vi gratulert får å ha løst alle oppgavene og kommet i mål, flagget er `PHST{Du klarte SHAbussen, veldig bra jobba!}`
 
-##Tanker
+## Tanker
 
 Alt i alt synes jeg dette var en gøy, utfordrende, og ikke minst lærerik CTF. Denne CTF-en satte mine ferdigheter på prøve i områder jeg ellers ikke er så god i (f.eks. nettverksanalyse), jeg fikk godt utbytte av å jobbe med disse oppgavene. PST skuffer aldri med oppgaver som er både tankevekkende og underholdene. Gleder meg veldig til neste mysterium de kommer med.
