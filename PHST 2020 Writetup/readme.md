@@ -147,7 +147,7 @@ Om vi dekoder delen med url-en med PDF-filen får vi `https://www.yr.no/place/No
 
 ## Andre påskedag
 
-![alt text](https://img.url.here "paskekylligbetjenter.png")
+![alt text](https://raw.githubusercontent.com/williamsolem/PHST-2020-Writeup/master/PHST%202020%20Writetup/5%20-%20Andre%20p%C3%A5skedag/paskekyllingbetjenter.png "paskekylligbetjenter.png")
 
 Så kom vi til la grande finale til hele CTF-en, i denne oppgaven blir vi gitt tre filer: `merkelig.py`, `underfundig`, og `paskekylligbetjenter.png`. Python-scriptet virker til å være en slags interpreter til et esoterisk kodesrpåk som bruker påske-emojier som kommandoer, `underfundig` virker til å være et program skrevet i dette kode-språket, og `paskekylligbetjenter.png` er et bilde av påskekyllinger rundt en datamaskin som prøver å løse gåten.
 
