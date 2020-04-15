@@ -255,7 +255,7 @@ print("P"+"".join(chr(x) for x in password[1:]))
 
 Scriptet tar koden til den orginale, men setter kommando-kjøringen i en `while True` løkke som kjører fram til  `break` blir kallt. Input til interpretern blir også byttet ut men en variabel `password` som kontinuerlig justeres. Koden har kommentarer slik at det er mulig å følge algoritmen. Kjører vi dette scriptet finner vi raskt ut at passordet ergo flagget er `PHST{Mitt navn er Gwyn. Pen Gwyn.}`.
 
-For de som ikke vet, så var Pen Gwyn en agent for Sydpolar Sikkerhetstjenste SPST i PSTs julekalender i fjord. 
+For de som ikke vet, så var Pen Gwyn en agent for Sydpolar Sikkerhetstjenste SPST i PSTs julekalender i fjor. 
 
 ## Rebus
 ```
